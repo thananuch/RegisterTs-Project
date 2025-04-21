@@ -1,0 +1,8 @@
+.myCalendar {
+  font-family: "PromptRegular";
+  src: local("PromptRegular"), url("./assets/fonts/Prompt/Prompt-Regular.ttf") format("truetype");
+  color: #172844;
+  position: absolute;
+  font-size: medium;
+  z-index: 999;
+}

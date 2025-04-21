@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "PromptRegular";
+  src: local("PromptRegular"), url("./assets/fonts/Prompt/Prompt-Regular.ttf") format("truetype");
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.swal2-container {
+  font-family: "PromptRegular";
+  src: local("PromptRegular"), url("./assets/fonts/Prompt/Prompt-Regular.ttf") format("truetype");
+}
+
+
+.swal2-title {
+  color: #000;
+  text-align: center;
+  font-size: 1.875rem;
+  margin: 0;
+  padding: 0;
+  z-index: 9999;
+}
+
+.swal2-popup {
+  /* border-radius: 24px; */
+  width: 38rem;
+  height: 24rem;
+  font-size: 16px;
+  z-index: 9999;
+}
+
+.swal2-popup .swal2-actions .swal2-confirm {
+  background: var(--purple-bg, #0000FF);
+  color: #ffffff;
+  border: none;
+  z-index: 9999;
+  /* border-radius: 25px;
+  padding: 10px 140px; 
+  font-size: 16px;  */
+}
+
+.swal2-popup .swal2-actions .swal2-cancel {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  z-index: 9999;
+}
+
+.my-swal-container {
+  text-align: center;
+  z-index: 9999;
+  padding: 10%;
+}
+
+.swal2-popup {
+  overflow-y: hidden !important;
+}
+
+.swal2-modal {
+  min-height: 40vh !important;
+  min-width: 20vh !important;
+}
